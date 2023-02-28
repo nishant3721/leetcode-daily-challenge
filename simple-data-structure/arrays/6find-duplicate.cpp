@@ -6,7 +6,7 @@ int main()
     int ans = 0;
     for (int i = 0; i < 10; i++)
     {
-        // Storing the resultant XOR of all the elements in an array
+        // Storing the resultant XOR of all the elements in an array, duplicate elements will cancel out each other
         ans = ans ^ array[i];
     }
 
